@@ -1,10 +1,7 @@
-import React from 'react'
-import './contact.css'
+import React from "react";
 
-function contact() {
-  return (
-    <div>contact</div>
-  )
-}
+const contact = () => {
+  return <section id="contact">Contact</section>;
+};
 
-export default contact
+export default contact;
