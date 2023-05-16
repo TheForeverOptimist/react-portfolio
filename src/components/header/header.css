@@ -48,6 +48,7 @@ header {
     height: 30rem;
     position: absolute;
     left: calc(50% - 11rem);
+    top: 25%;
     margin-top: 5rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
@@ -69,7 +70,7 @@ header {
 /*MEDIA QUERIES -- responsive*/
 /* most devices */
 
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1024px) {
     header {
         height: 68vh;
     }
