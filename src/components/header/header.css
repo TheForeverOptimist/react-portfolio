@@ -44,13 +44,15 @@ header {
 
 .me {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 30rem;
+    width: 16rem;
+    max-height: 80vh;
     position: absolute;
-    left: calc(50% - 11rem);
-    top: 25%;
-    margin-top: 5rem;
+    left: calc(50% - 8rem);
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 10rem;
     border-radius: 12rem 12rem 0 0;
+    padding: 2rem 0 0 0;
     overflow: hidden;
 
 }
@@ -70,20 +72,24 @@ header {
 /*MEDIA QUERIES -- responsive*/
 /* most devices */
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
     header {
         height: 68vh;
     }
-    }
-
-    section {
+     section {
         margin-top: 6rem;
     }
+    .me {
+        padding-top: 5rem;
+    }
+    }
+
+   
 
 /* small devices */
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     header {
-        height: 100vh;
+        height: 100%;
     }
 
     .header_socials, .scroll_down {
@@ -93,4 +99,4 @@ header {
     section {
         margin-top: 6rem;
     }
-}
+} */
