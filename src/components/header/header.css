@@ -69,8 +69,8 @@ header {
 }
 
 
-/*MEDIA QUERIES -- responsive*/
-/* most devices */
+/* MEDIA QUERIES -- responsive*/
+
 
 /* @media screen and (max-width: 1024px) {
     header {
@@ -82,15 +82,12 @@ header {
     .me {
         padding-top: 5rem;
     }
-    }
+    } */
 
    
 
 /* small devices */
-/* @media screen and (max-width: 600px) {
-    header {
-        height: 100%;
-    }
+@media screen and (max-width: 600px) {
 
     .header_socials, .scroll_down {
         display: none;
@@ -99,4 +96,4 @@ header {
     section {
         margin-top: 6rem;
     }
-} */
+}
