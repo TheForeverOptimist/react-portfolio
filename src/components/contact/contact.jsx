@@ -31,7 +31,7 @@ const Contact = () => {
             <MessageOutlinedIcon fontSize="large" />
             <h4>Email</h4>
             <h5>dummyemail@email.com</h5>
-            <a href="mailto:dummyemail@email.com" target="_blank">
+            <a href="mailto:dummyemail@email.com" target="_blank" rel="noreferrer">
               Send A Message
             </a>
           </article>
@@ -47,7 +47,7 @@ const Contact = () => {
             <h5>+17345487767</h5>
             <a
               href="https://api.whatsapp.com/send?phone+17345487767"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               Give me a call!
             </a>
