@@ -30,8 +30,8 @@ const Contact = () => {
           <article className="contact_option">
             <MessageOutlinedIcon fontSize="large" />
             <h4>Email</h4>
-            <h5>dummyemail@email.com</h5>
-            <a href="mailto:dummyemail@email.com" target="_blank" rel="noreferrer">
+            <h5>sean@seanmunjal.com</h5>
+            <a href="mailto:sean@seanmunjal.com" target="_blank" rel="noreferrer">
               Send A Message
             </a>
           </article>
