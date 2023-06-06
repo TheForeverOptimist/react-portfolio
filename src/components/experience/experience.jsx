@@ -119,6 +119,13 @@ const experience = () => {
             <article className="experience_details">
               <VerifiedIcon className="experience_details-icon" />
               <div>
+                <h4>GitFlow</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <VerifiedIcon className="experience_details-icon" />
+              <div>
                 <h4>Django</h4>
                 <small className="text-light">Intermediate</small>
               </div>
