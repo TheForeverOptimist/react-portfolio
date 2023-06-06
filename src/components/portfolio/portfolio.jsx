@@ -1,10 +1,8 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from '../../assets/jam logo.jpeg'
-import IMG2 from '../../assets/TRIP CITY.jpg'
-import IMG3 from '../../assets/new_visual_ui.png'
-import IMG4 from '../../assets/new_visual_ui.png'
-import IMG5 from '../../assets/new_visual_ui.png'
+import IMG1 from '../../assets/Jam-logo.png'
+import IMG2 from '../../assets/tripcity.png'
+import IMG3 from '../../assets/generate-logo.png'
 
 const data = [
   {
@@ -26,7 +24,7 @@ const data = [
     image: IMG3,
     title: "Generate - The Social Platform for Photographers",
     github: "https://github.com/JuanitoDeLaTorre/Generate_Social_Media",
-    demo: "https://elevate.app",
+    demo: "https://generate-social.onrender.com/",
   },
 ];
 
