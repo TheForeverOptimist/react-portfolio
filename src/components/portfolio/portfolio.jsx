@@ -10,7 +10,7 @@ const data = [
     image: IMG1,
     title: "Jam- The Chat App Where Vibes Are Delicious",
     github: "https://github.com/guantanamobosch/Jam",
-    demo: "https://elevate.app",
+    demo: "https://jam-chat.herokuapp.com/",
   },
   {
     id: 2,
