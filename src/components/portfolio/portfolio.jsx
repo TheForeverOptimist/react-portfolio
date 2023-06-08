@@ -17,7 +17,7 @@ const data = [
     image: IMG2,
     title: "Trip City- The Social Itinerary",
     github: "https://github.com/JONPIRES/Trip-City",
-    demo: "https://elevate.app",
+    demo: "https://trip-city.herokuapp.com/",
   },
   {
     id: 3,
