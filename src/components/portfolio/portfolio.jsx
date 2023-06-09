@@ -15,7 +15,7 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: "Trip City- The Social Itinerary",
+    title: "Trip City- The Social Itinerary For All The Besties",
     github: "https://github.com/JONPIRES/Trip-City",
     demo: "https://trip-city.herokuapp.com/",
   },
