@@ -36,8 +36,10 @@ const about = () => {
             </article>
             <article className="about_card">
               <BusinessCenterIcon className="about_icon" />
-              <h5>Projects</h5>
-              <small>15 Completed Projects</small>
+              <h5>Current Interests</h5>
+              <small>Machine Learning</small>
+              <small>Computer Vision</small>
+              <small>Augmented Reality</small>
             </article>
           </div>
           <p>
