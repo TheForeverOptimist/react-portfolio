@@ -22,7 +22,7 @@ const experience = () => {
             <article className="experience_details">
               <VerifiedIcon className="experience_details-icon" />
               <div>
-                <h4>HTML</h4>
+                <h4>TypeScript</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -43,8 +43,22 @@ const experience = () => {
             <article className="experience_details">
               <VerifiedIcon className="experience_details-icon" />
               <div>
-                <h4>Redux</h4>
-                <small className="text-light">Intermediate</small>
+                <h4>NextJS</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <VerifiedIcon className="experience_details-icon" />
+              <div>
+                <h4>VueJS</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <VerifiedIcon className="experience_details-icon" />
+              <div>
+                <h4>HTML</h4>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
@@ -57,7 +71,7 @@ const experience = () => {
             <article className="experience_details">
               <VerifiedIcon className="experience_details-icon" />
               <div>
-                <h4>TypeScript</h4>
+                <h4>Redux</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>

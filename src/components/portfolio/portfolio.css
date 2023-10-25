@@ -4,6 +4,7 @@
     gap: 2.5rem;
 }
 
+
 .portfolio_item {
     background: var(--color-light);
     padding: 1.2rem;
@@ -13,25 +14,38 @@
 
 }
 
-.portfolio-item:hover{
+.portfolio_item:hover{
     border-color: var(--color-primary);
     background: transparent;
 }
+
 
 .portfolio_item-image{
     border-radius: 1.5rem;
     overflow: hidden;
 }
 
+.portfolio_item-image img{
+    width: 20vw;
+    height: 40vh;
+}
+
+
+
 .portfolio_item h3 {
     margin: 1.2rem 0 2rem;
 }
+
+
+
 
 .portfolio_item-cta{
     gap: 1rem;
     display: flex;
     margin-bottom: 1rem;
 }
+
+
 
 @media screen and (max-width: 1366px) {
     .portfolio_container {
