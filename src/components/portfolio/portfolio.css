@@ -1,7 +1,33 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
 .portfolio_container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    max-width: 1200px;
+    justify-content:center;
+    align-items:center;
+    margin: 0 auto;
     gap: 2.5rem;
+    grid-template-areas:
+    "elevate elevate elevate elevate elevate elevate"
+    "project1 project1 project1 project2 project2 project2"
+}
+.portfolio_item.elevate {
+    grid-area: elevate;
+}
+.elevate .portfolio_item-image img {
+    width: 100%;  /* Adjust according to your preference */
+    height: auto; /* To maintain the aspect ratio */
+}
+
+.portfolio_item:nth-child(2) {
+    grid-area: project1;
+}
+.portfolio_item:nth-child(3) {
+    grid-area: project2;
 }
 
 
@@ -23,11 +49,14 @@
 .portfolio_item-image{
     border-radius: 1.5rem;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .portfolio_item-image img{
-    width: 20vw;
-    height: 40vh;
+    width: 100%;
+    height: auto;
 }
 
 
@@ -49,7 +78,10 @@
 
 @media screen and (max-width: 1366px) {
     .portfolio_container {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+        "elevate elevate elevate elevate"
+        "project1 project1 project2 project2";
         gap: 1.2rem;
 
     }
@@ -59,6 +91,10 @@
 @media screen and (max-width: 600px) {
     .portfolio_container {
         grid-template-columns: 1fr;
+        grid-template-areas:
+        "elevate"
+        "project1"
+        "project2";
         gap: 1rem;
     }
 

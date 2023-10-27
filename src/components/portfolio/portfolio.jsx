@@ -2,7 +2,7 @@ import React from "react";
 import "./portfolio.css";
 import IMG2 from '../../assets/jam_nobg.png'
 import IMG3 from '../../assets/tripcity_transparent.png'
-import IMG1 from '../../assets/elevate_transparent_E.png'
+import IMG1 from '../../assets/elevate_transparent.png'
 
 const data = [
     {
@@ -35,7 +35,34 @@ const portfolio = () => {
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
       <div className="container portfolio_container">
-        {data.map(({ id, image, title, github, demo }) => {
+        <article className="portfolio_item elevate">
+          <div className="portfolio_item-image">
+            <img
+              src={IMG1}
+              alt="Elevate- Social Fitness meets Computer Vision Tracking."
+            />
+          </div>
+          <h3>Elevate- Social Fitness meets Computer Vision Tracking.</h3>
+          <div className="portfolio_item-cta">
+            <a
+              href="https://github.com/TheForeverOptimist"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Private GitHub
+            </a>
+            <a
+              href="https://elevate.app"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live App
+            </a>
+          </div>
+        </article>
+        {data.slice(1).map(({ id, image, title, github, demo }) => {
           return (
             <article key={id} className="portfolio_item">
               <div className="portfolio_item-image">
@@ -57,7 +84,7 @@ const portfolio = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Live App
+                  Live Demo
                 </a>
               </div>
             </article>
