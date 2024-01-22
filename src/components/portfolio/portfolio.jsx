@@ -42,7 +42,18 @@ const portfolio = () => {
               alt="Elevate- Social Fitness meets Computer Vision Tracking."
             />
           </div>
-          <h3>Elevate- Social Fitness meets Computer Vision Tracking.</h3>
+          <h3>Social Fitness meets Computer Vision Tracking.</h3>
+          <h3>
+            This NextJS React Web App mirrors the startup's iOS app{" "}
+            <a
+              href="https://elevate.app/iOS.html"
+              style={{ textDecoration: "underline", color: "blue" }}
+            >
+              'Elevate Fitness Network'
+            </a>{" "}
+            utilizing the following: Javascript, TypeScript, NextJS's Dynamic
+            Routing/SSR/SSG, Backend API integration, Materialize UI
+          </h3>
           <div className="portfolio_item-cta">
             <a
               href="https://github.com/TheForeverOptimist"
