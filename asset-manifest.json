@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.64e2e5cc.css",
-    "main.js": "/static/js/main.0736198b.js",
+    "main.css": "/static/css/main.472acb1f.css",
+    "main.js": "/static/js/main.60c5b52e.js",
     "static/media/me_transparent_new.png": "/static/media/me_transparent_new.263e4d203411c0264fe0.png",
     "static/media/metransparent.png": "/static/media/metransparent.b7715f3c805e75d97ed5.png",
     "static/media/jam_nobg.png": "/static/media/jam_nobg.e7604491a239ad8b65b9.png",
@@ -10,11 +10,11 @@
     "static/media/elevate_transparent.png": "/static/media/elevate_transparent.604bc4f5499b04c766a2.png",
     "static/media/SeanMunjalCV.pdf": "/static/media/SeanMunjalCV.7f0dc74521bfe90e832f.pdf",
     "index.html": "/index.html",
-    "main.64e2e5cc.css.map": "/static/css/main.64e2e5cc.css.map",
-    "main.0736198b.js.map": "/static/js/main.0736198b.js.map"
+    "main.472acb1f.css.map": "/static/css/main.472acb1f.css.map",
+    "main.60c5b52e.js.map": "/static/js/main.60c5b52e.js.map"
   },
   "entrypoints": [
-    "static/css/main.64e2e5cc.css",
-    "static/js/main.0736198b.js"
+    "static/css/main.472acb1f.css",
+    "static/js/main.60c5b52e.js"
   ]
 }
