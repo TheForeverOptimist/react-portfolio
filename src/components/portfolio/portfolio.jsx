@@ -35,7 +35,7 @@ const portfolio = () => {
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
       <div className="container portfolio_container">
-        <article className="portfolio_item elevate">
+        <div className="portfolio_item elevate">
           <div className="portfolio_item-image">
             <img
               src={IMG1}
@@ -72,7 +72,7 @@ const portfolio = () => {
               Live App
             </a>
           </div>
-        </article>
+        </div>
         {data.slice(1).map(({ id, image, title, github, demo }) => {
           return (
             <article key={id} className="portfolio_item">

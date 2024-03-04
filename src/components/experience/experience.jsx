@@ -36,7 +36,7 @@ const experience = () => {
             <article className="experience_details">
               <VerifiedIcon className="experience_details-icon" />
               <div>
-                <h4>React</h4>
+                <h4>HTML</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -57,29 +57,29 @@ const experience = () => {
             <article className="experience_details">
               <VerifiedIcon className="experience_details-icon" />
               <div>
-                <h4>HTML</h4>
+                <h4>React</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
               <VerifiedIcon className="experience_details-icon" />
               <div>
-                <h4>Socket.io</h4>
+                <h4>Tailwind</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
               <VerifiedIcon className="experience_details-icon" />
               <div>
-                <h4>Redux</h4>
-                <small className="text-light">Intermediate</small>
+                <h4>ShadCN</h4>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
               <VerifiedIcon className="experience_details-icon" />
               <div>
-                <h4>Bootstrap</h4>
-                <small className="text-light">Intermediate</small>
+                <h4>ShadCN</h4>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
@@ -140,14 +140,14 @@ const experience = () => {
             <article className="experience_details">
               <VerifiedIcon className="experience_details-icon" />
               <div>
-                <h4>Django</h4>
+                <h4>Langchain</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience_details">
               <VerifiedIcon className="experience_details-icon" />
               <div>
-                <h4>Bcrypt</h4>
+                <h4>Zod</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
@@ -161,21 +161,21 @@ const experience = () => {
             <article className="experience_details">
               <VerifiedIcon className="experience_details-icon" />
               <div>
-                <h4>PostgresSQL</h4>
+                <h4>Prisma</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience_details">
               <VerifiedIcon className="experience_details-icon" />
               <div>
-                <h4>OAuth</h4>
+                <h4>TRPC</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience_details">
               <VerifiedIcon className="experience_details-icon" />
               <div>
-                <h4>TensorFlow</h4>
+                <h4>React Query</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>

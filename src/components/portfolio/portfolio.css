@@ -1,44 +1,33 @@
 body, html {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .portfolio_container {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    max-width: 1200px;
-    justify-content:center;
+    display: flex;
+    flex-direction: column;
     align-items:center;
+    max-width: 100%;
     margin: 0 auto;
-    gap: 2.5rem;
-    grid-template-areas:
-    "elevate elevate elevate elevate elevate elevate"
-    "project1 project1 project1 project2 project2 project2"
+    gap: 1rem;
 }
-.portfolio_item.elevate {
-    grid-area: elevate;
+
+.portfolio_item{
+    width: 90%;
+    max-width: 1200px;
+    background: var(--color-light);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    border-radius: 2rem;
+    border: 1px solid transparent;
 }
 .elevate .portfolio_item-image img {
     width: 100%;  /* Adjust according to your preference */
-    height: auto; /* To maintain the aspect ratio */
+    height: auto;
+    border-radius: 5px;
 }
 
-.portfolio_item:nth-child(2) {
-    grid-area: project1;
-}
-.portfolio_item:nth-child(3) {
-    grid-area: project2;
-}
-
-
-.portfolio_item {
-    background: var(--color-light);
-    padding: 1.2rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
-    transition: var(--transition)
-
-}
 
 .portfolio_item:hover{
     border-color: var(--color-primary);
@@ -78,24 +67,26 @@ body, html {
 
 @media screen and (max-width: 1366px) {
     .portfolio_container {
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-areas:
-        "elevate elevate elevate elevate"
-        "project1 project1 project2 project2";
-        gap: 1.2rem;
+        max-width: 100%;
+        padding: 0 20px;
+    }
 
+    .portfolio_item{
+        width: 95%;
+        padding: 15px;
     }
 }
 
 /* small devices */
 @media screen and (max-width: 600px) {
     .portfolio_container {
-        grid-template-columns: 1fr;
-        grid-template-areas:
-        "elevate"
-        "project1"
-        "project2";
-        gap: 1rem;
+        padding: 0 10px;
     }
+
+    .portfolio_item{
+        width: 100%;
+        padding: 10px;
+    }
+
 
 }

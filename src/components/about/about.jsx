@@ -38,9 +38,9 @@ const about = () => {
               <BusinessCenterIcon className="about_icon" />
               <h5>Current Interests</h5>
               <small>Advanced JavaScript</small>
+              <small>Generative AI</small>
               <small>Machine Learning</small>
-              <small>Computer Vision</small>
-              <small>Medical Software</small>
+              <small>LLMs</small>
             </article>
           </div>
           <p>
