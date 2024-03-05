@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.472acb1f.css",
-    "main.js": "/static/js/main.60c5b52e.js",
+    "main.css": "/static/css/main.02802c1b.css",
+    "main.js": "/static/js/main.c1e58bb7.js",
     "static/media/me_transparent_new.png": "/static/media/me_transparent_new.263e4d203411c0264fe0.png",
     "static/media/metransparent.png": "/static/media/metransparent.b7715f3c805e75d97ed5.png",
-    "static/media/jam_nobg.png": "/static/media/jam_nobg.e7604491a239ad8b65b9.png",
-    "static/media/tripcity_transparent.png": "/static/media/tripcity_transparent.739302b9e0e33bb3a4af.png",
+    "static/media/doc_preview.png": "/static/media/doc_preview.daf2645404d0adaf8ca7.png",
+    "static/media/Webapp_preview.png": "/static/media/Webapp_preview.3eca94e6c3a94bfdcf87.png",
+    "static/media/jam_preview_pic.png": "/static/media/jam_preview_pic.3b243fcd0a6416721743.png",
     "static/media/fresh-snow.png": "/static/media/fresh-snow.1466e802f1bccf40d0a2.png",
-    "static/media/elevate_transparent.png": "/static/media/elevate_transparent.604bc4f5499b04c766a2.png",
-    "static/media/SeanMunjalCV.pdf": "/static/media/SeanMunjalCV.7f0dc74521bfe90e832f.pdf",
+    "static/media/SeanMCV.pdf": "/static/media/SeanMCV.7f0dc74521bfe90e832f.pdf",
     "index.html": "/index.html",
-    "main.472acb1f.css.map": "/static/css/main.472acb1f.css.map",
-    "main.60c5b52e.js.map": "/static/js/main.60c5b52e.js.map"
+    "main.02802c1b.css.map": "/static/css/main.02802c1b.css.map",
+    "main.c1e58bb7.js.map": "/static/js/main.c1e58bb7.js.map"
   },
   "entrypoints": [
-    "static/css/main.472acb1f.css",
-    "static/js/main.60c5b52e.js"
+    "static/css/main.02802c1b.css",
+    "static/js/main.c1e58bb7.js"
   ]
 }
