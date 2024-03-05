@@ -26,18 +26,18 @@ const Navbar = () => {
         <PersonOutlineOutlinedIcon />
       </a>
       <a
-        href="#experience"
-        onClick={() => setActiveNav("#experience")}
-        className={activeNav === "#experience" ? "active" : ""}
-      >
-        <BookmarkAddedOutlinedIcon />
-      </a>
-      <a
         href="#portfolio"
         onClick={() => setActiveNav("#portfolio")}
         className={activeNav === "#portfolio" ? "active" : ""}
       >
         <WorkOutlineOutlinedIcon />
+      </a>
+      <a
+        href="#experience"
+        onClick={() => setActiveNav("#experience")}
+        className={activeNav === "#experience" ? "active" : ""}
+      >
+        <BookmarkAddedOutlinedIcon />
       </a>
       <a
         href="#contact"
