@@ -147,7 +147,7 @@ const experience = () => {
             <article className="experience_details">
               <VerifiedIcon className="experience_details-icon" />
               <div>
-                <h4>Zod</h4>
+                <h4>OpenAI</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
@@ -176,6 +176,13 @@ const experience = () => {
               <VerifiedIcon className="experience_details-icon" />
               <div>
                 <h4>React Query</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <VerifiedIcon className="experience_details-icon" />
+              <div>
+                <h4>Zod</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
