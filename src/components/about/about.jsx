@@ -22,10 +22,10 @@ const about = () => {
             <article className="about_card">
               <AssignmentTurnedInIcon className="about_icon" />
               <h5>Experience</h5>
-              <small>2+ Years Working</small>
               <small>Full Stack Developer</small>
-              <small>8+ Years Working</small>
+              <small>(2+ Years)</small>
               <small>Product Management</small>
+              <small>(8+ Years)</small>
             </article>
             <article className="about_card">
               <WorkspacesIcon className="about_icon" />
@@ -43,14 +43,19 @@ const about = () => {
               <small>LLMs</small>
             </article>
           </div>
+          <p style={{ display: "flex", alignItems: "center" }}>
+            <strong>Hi I'm Sean </strong>. 👋{" "}
+          </p>
           <p>
-            Hi I'm Sean a self-driven, business savvy full stack developer, with
-            a background in product and regulatory management for consumer
-            social and digital health technologies as well as medical devices.
-            I'm a high energy, high integrity person with battle tested
-            communication and team-building skills as an experienced product
-            leader well versed in integrating with operations, development,
-            marketing and C-suite stakeholders.
+            I'm a self-driven, business savvy full stack developer. I've been a
+            Founder, as well as a Product & Regulatory Manager across various
+            industries, i.e. Consumer Social Platforms, Digital Health
+            Technologies & Medical Devices. My previous experience in
+            different modalities gives me a unique perspective for how I design
+            and implement my engineering. I'm a high energy, high integrity
+            person with battle tested communication and team-building skills as
+            an experienced product leader well versed in integrating with
+            operations, development, marketing and C-suite stakeholders.
           </p>
 
           <a href="#contact" className="btn btn-primary">
