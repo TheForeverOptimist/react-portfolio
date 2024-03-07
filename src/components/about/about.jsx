@@ -39,13 +39,14 @@ const about = () => {
           </div>
           <p
             style={{
-              fontFamily: "Inter",
+              fontFamily: "Montserrat",
               fontSize: "20px",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
               marginTop: "30px",
-              fontWeight: "800"
+              fontWeight: "500",
+              color: "black"
             }}
           >
             I'm a self-driven, business savvy full stack developer. I've been a
