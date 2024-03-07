@@ -1,5 +1,5 @@
 import React from "react";
-import './about.css'
+import "./about.css";
 import ME from "../../assets/me_transparent_new.png";
 import AssignmentTurnedInIcon from "@mui/icons-material/AssignmentTurnedIn";
 import WorkspacesIcon from "@mui/icons-material/Workspaces";
@@ -10,13 +10,7 @@ const about = () => {
     <section id="about">
       <h5>Get To Know</h5>
       <h2>About Me</h2>
-
       <div className="container about_container">
-        <div className="about_me">
-          <div className="about_me-image">
-            <img src={ME} alt="personal pic" />
-          </div>
-        </div>
         <div className="about_content">
           <div className="about_cards">
             <article className="about_card">
@@ -43,24 +37,26 @@ const about = () => {
               <small>LLMs</small>
             </article>
           </div>
-          <p style={{ display: "flex", alignItems: "center" }}>
-            <strong>Hi I'm Sean </strong>. 👋{" "}
-          </p>
-          <p>
+          <p
+            style={{
+              fontFamily: "Inter",
+              fontSize: "20px",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              marginTop: "30px",
+              fontWeight: "800"
+            }}
+          >
             I'm a self-driven, business savvy full stack developer. I've been a
             Founder, as well as a Product & Regulatory Manager across various
-            industries, i.e. Consumer Social Platforms, Digital Health
-            Technologies & Medical Devices. My previous experience in
-            different modalities gives me a unique perspective for how I design
-            and implement my engineering. I'm a high energy, high integrity
-            person with battle tested communication and team-building skills as
-            an experienced product leader well versed in integrating with
-            operations, development, marketing and C-suite stakeholders.
+            industries, i.e. Consumer Social Platforms, Digital Health & Medical
+            Devices. My experience in different modalities gives me a
+            unique perspective for how I design and implement my engineering.
+            I'm an experienced Product Leader who is high energy and high integrity with excellent
+            communication and team-building skills. I enjoy collaborating with operations, development,
+            marketing and C-suite stakeholders.
           </p>
-
-          <a href="#contact" className="btn btn-primary">
-            Let's Talk
-          </a>
         </div>
       </div>
     </section>
