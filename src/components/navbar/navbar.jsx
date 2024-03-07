@@ -6,11 +6,22 @@ import BookmarkAddedOutlinedIcon from "@mui/icons-material/BookmarkAddedOutlined
 import WorkOutlineOutlinedIcon from "@mui/icons-material/WorkOutlineOutlined";
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 import {useState} from 'react'
+import gsap from 'gsap'
+import {useGSAP} from '@gsap/react'
 
 const Navbar = () => {
+  useGSAP(() => {
+    const tl = gsap.timeline()
+    tl.fromTo(
+      ".navigation",
+      { y: -100, opacity: 0 }, // Starting from off-screen (adjust as needed)
+      { y: 0, opacity: 1, duration: 2, ease: "elastic.out(1, 0.3)", delay: 1.5 }
+    );
+  
+  })
   const [activeNav, setActiveNav] = useState('#')
   return (
-    <nav>
+    <nav className='navigation'>
       <a
         href="#"
         onClick={() => setActiveNav("#")}
