@@ -33,7 +33,7 @@ import { useGSAP } from "@gsap/react";
           <div className="me">
             <img src={ME} alt="" />
           </div>
-          <a href="#contact" className="scroll_down">
+          <a href="#portfolio" className="scroll_down">
             Scroll Down
           </a>
         </div>
