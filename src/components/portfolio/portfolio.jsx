@@ -8,7 +8,7 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: "DocVersation is where PDFs Meet AI.",
+    title: "DocVersation is a Generative AI Application where you can talk to your PDF.",
     info: "OpenAI, Langchain, Upstash Vector, TRPC, Prisma, KindeOSS, SQL, TypeScript, NextJS, React, ShadCN, Tailwind",
     github: "https://github.com/TheForeverOptimist/DocVersation",
     demo: "https://doc-versation.vercel.app/",

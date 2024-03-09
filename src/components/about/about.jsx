@@ -54,9 +54,7 @@ const about = () => {
             industries, i.e. Consumer Social Platforms, Digital Health & Medical
             Devices. My experience in different modalities gives me a
             unique perspective for how I design and implement my engineering.
-            I'm an experienced Product Leader who is high energy and high integrity with excellent
-            communication and team-building skills. I enjoy collaborating with operations, development,
-            marketing and C-suite stakeholders.
+            My current focus is developing Generative AI applications that utilize Large Language Models and Machine Learning to solve real world problems.
           </p>
         </div>
       </div>
