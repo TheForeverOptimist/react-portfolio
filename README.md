@@ -11,7 +11,7 @@ Frameworks, Libraries & Language of this Portfolio:
 
 🤟 JavaScript (Language)  
 📈 React (Application Framework)  
-🏗️ Material UI (UI Components)  
+🏗️ Material UI & CSS (UI Components)  
 🚀 GSAP (Animations)
 
 Though this portfolio had simplicity in mind, you will find that many of the projects in my portfolio are well-excuted full stack applications many of which use generative AI princples to provide real world solutions.
