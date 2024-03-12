@@ -2,7 +2,7 @@ import React from "react";
 import "./portfolio.css";
 import IMG2 from "../../assets/Webapp_preview.png";
 import IMG3 from "../../assets/jam_preview_pic.png";
-import IMG1 from "../../assets/doc_preview.png";
+import IMG1 from "../../assets/orangedoc_preview.png";
 
 const data = [
   {
