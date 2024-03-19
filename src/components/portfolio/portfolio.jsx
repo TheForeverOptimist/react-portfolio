@@ -17,8 +17,8 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: "Ellie AI",
-    info: "TypeScript, NextJS, React, Tailwind, OpenAI, Azure",
+    title: "Ellie AI - The Pure Audio AI Assistant",
+    info: "TypeScript, NextJS, React, Tailwind, OpenAI, Azure, Whisper Speech Recognition",
     github: "https://github.com/Elevate-Inc/elevate-web-app",
     demo: "https://elevate.app",
   },
