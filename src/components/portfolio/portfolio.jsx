@@ -9,10 +9,10 @@ const data = [
     id: 1,
     image: IMG1,
     title:
-      "DocVersation is a Generative AI Application where you can talk to your PDF.",
+      "HATE-READING.COM is a Generative AI Application where you can talk to your PDFs.",
     info: "TypeScript, SQL, OpenAI, Langchain, Upstash Vector, TRPC, Prisma, KindeOSS, NextJS, React, ShadCN, Tailwind",
     github: "https://github.com/TheForeverOptimist/DocVersation",
-    demo: "https://doc-versation.vercel.app/",
+    demo: "https://hate-reading.com",
   },
   {
     id: 2,
