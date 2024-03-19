@@ -1,14 +1,15 @@
 import React from "react";
 import "./portfolio.css";
-import IMG2 from "../../assets/Webapp_preview.png";
-import IMG3 from "../../assets/jam_preview_pic.png";
+import IMG3 from "../../assets/Webapp_preview.png";
+import IMG2 from "../../assets/ellieai_preview.png";
 import IMG1 from "../../assets/orangedoc_preview.png";
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: "DocVersation is a Generative AI Application where you can talk to your PDF.",
+    title:
+      "DocVersation is a Generative AI Application where you can talk to your PDF.",
     info: "OpenAI, Langchain, Upstash Vector, TRPC, Prisma, KindeOSS, SQL, TypeScript, NextJS, React, ShadCN, Tailwind",
     github: "https://github.com/TheForeverOptimist/DocVersation",
     demo: "https://doc-versation.vercel.app/",
@@ -16,18 +17,18 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: "Elevate- Social Fitness meets Computer Vision Tracking.",
-    info: "Javascript, TypeScript, NextJS, React, Tailwind, NodeJS, REST API Integrations",
+    title: "Ellie AI",
+    info: "TypeScript, NextJS, React, Tailwind, OpenAI, Azure",
     github: "https://github.com/Elevate-Inc/elevate-web-app",
     demo: "https://elevate.app",
   },
   {
     id: 3,
     image: IMG3,
-    title: "Jam- The Chat App Where Vibes are Delicious",
-    info: "React, NodeJS, Socket.io, Material UI, MongoDB, Mongoose/Express ",
-    github: "https://github.com/guantanamobosch/Jam",
-    demo: "https://jam-chat.herokuapp.com/",
+    title: "Elevate- Social Fitness meets Computer Vision Tracking.",
+    info: "Javascript, TypeScript, NextJS, React, Tailwind, NodeJS, REST API Integrations",
+    github: "https://github.com/Elevate-Inc/elevate-web-app",
+    demo: "https://elevate.app",
   },
 ];
 
