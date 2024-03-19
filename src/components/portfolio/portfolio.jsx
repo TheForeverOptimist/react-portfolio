@@ -1,7 +1,7 @@
 import React from "react";
 import "./portfolio.css";
-import IMG3 from "../../assets/Webapp_preview.png";
-import IMG2 from "../../assets/ellieai_preview.png";
+import IMG2 from "../../assets/Webapp_preview.png";
+import IMG3 from "../../assets/ellieai-preview.png";
 import IMG1 from "../../assets/orangedoc_preview.png";
 
 const data = [
@@ -17,16 +17,16 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: "Ellie AI - The Pure Audio AI Assistant",
-    info: "TypeScript, NextJS, React, Tailwind, OpenAI, Azure, Whisper Speech Recognition",
+    title: "Elevate- Social Fitness meets Computer Vision Tracking.",
+    info: "TypeScript, NextJS, React, Tailwind, NodeJS, REST API Integrations",
     github: "https://github.com/Elevate-Inc/elevate-web-app",
     demo: "https://elevate.app",
   },
   {
     id: 3,
     image: IMG3,
-    title: "Elevate- Social Fitness meets Computer Vision Tracking.",
-    info: "Javascript, TypeScript, NextJS, React, Tailwind, NodeJS, REST API Integrations",
+    title: "Ellie AI - The Pure Audio AI Assistant",
+    info: "TypeScript, NextJS, React, Tailwind, OpenAI, Azure, Whisper Speech Recognition",
     github: "https://github.com/Elevate-Inc/elevate-web-app",
     demo: "https://elevate.app",
   },
