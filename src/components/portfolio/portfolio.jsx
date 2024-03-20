@@ -50,7 +50,6 @@ const Portfolio = () => {
             trigger: item,
             start: "top center+=150",
             end: "bottom center",
-            // Adjust toggleActions as needed:
             // onEnter, onLeave, onEnterBack, onLeaveBack
             toggleActions: "play reverse play reverse",
             scrub: 1

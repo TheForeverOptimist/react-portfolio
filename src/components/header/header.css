@@ -44,8 +44,9 @@ header {
 
 .me {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 16rem;
-    max-height: 80vh;
+    width: 80%;
+    max-width: 16rem;
+    height: auto;
     position: absolute;
     left: calc(50% - 8rem);
     top: 50%;
@@ -55,6 +56,11 @@ header {
     padding: 2rem 0 0 0;
     overflow: hidden;
 
+}
+
+.me img{
+    width: 100%;
+    height: auto;
 }
 
 /* scroll */
