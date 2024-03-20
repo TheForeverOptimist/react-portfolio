@@ -25,10 +25,10 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: "Ellie AI - The Pure Audio AI Assistant",
+    title: "Ellie.Fit - The Pure Audio AI Assistant",
     info: "TypeScript, NextJS, React, Tailwind, OpenAI, Azure, Whisper Speech Recognition",
     github: "https://github.com/Elevate-Inc/elevate-web-app",
-    demo: "https://elevate.app",
+    demo: "https://ellie.fit",
   },
 ];
 
@@ -42,7 +42,7 @@ const portfolio = () => {
           return (
             <article key={id} className="portfolio_item">
               <div className="portfolio_item-image">
-                <img src={image} alt={title} />
+                <img src={image} alt={title} style={{cursor: 'pointer'}} onClick={() => window.open(demo, '_blank')} />
               </div>
               <div className="portfolio_item-description">
                 <h3>

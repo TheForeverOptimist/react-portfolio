@@ -53,8 +53,8 @@ const about = () => {
             Founder, as well as a Product & Regulatory Manager across various
             industries, i.e. Consumer Social Platforms, Digital Health & Medical
             Devices. My experience in different modalities gives me a
-            unique perspective for how I design and implement my engineering.
-            My current focus is developing Generative AI applications in TypeScript environments that utilize Large Language Models and Machine Learning to solve real world problems.
+            customer-centric perspective for how I design and implement my engineering.
+            My current focus is developing Generative AI applications in TypeScript environments that utilize Large Language Models and Machine Learning to solve real world problems with bold User Experiences.
           </p>
         </div>
       </div>
