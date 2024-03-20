@@ -2,7 +2,7 @@ import React from "react";
 import "./portfolio.css";
 import IMG2 from "../../assets/Webapp_preview.png";
 import IMG3 from "../../assets/ellieai-preview.png";
-import IMG1 from "../../assets/orangedoc_preview.png";
+import IMG1 from "../../assets/hate-reading-preview.png";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -37,6 +37,7 @@ const data = [
 
 const Portfolio = () => {
   gsap.registerPlugin(ScrollTrigger);
+
   useGSAP(() => {
     gsap.utils.toArray(".portfolio_item").forEach((item) => {
       gsap.fromTo(
@@ -52,6 +53,7 @@ const Portfolio = () => {
             // Adjust toggleActions as needed:
             // onEnter, onLeave, onEnterBack, onLeaveBack
             toggleActions: "play reverse play reverse",
+            scrub: 1
           },
         }
       );
