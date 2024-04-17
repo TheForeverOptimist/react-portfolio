@@ -5,6 +5,7 @@ import ME from "../../assets/metransparent.png";
 import HeaderSocial from "./headersocials";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import CssDoodle from "../cssdoodle";
 
 
 
@@ -24,6 +25,7 @@ import { useGSAP } from "@gsap/react";
 
     return (
       <header>
+        <CssDoodle />
         <div className="container header_container">
           <h5 className="line1">Hello I'm</h5>
           <h1 className="line2">Sean Munjal</h1>
