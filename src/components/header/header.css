@@ -18,6 +18,7 @@ css-doodle {
     text-align: center;
     height: 100%;
     position: relative;
+    transform: translate3d(0,0,0);
 }
 
 /* CTA */
@@ -54,7 +55,7 @@ css-doodle {
 
 .me {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 80%;
+    width: 50%;
     max-width: 16rem;
     height: auto;
     position: absolute;
@@ -84,6 +85,9 @@ css-doodle {
     font-size: 0.9rem;
 }
 
+.me, .line1, .line2, .text-light, .cta {
+  will-change: transform, opacity;
+}
 
 /* MEDIA QUERIES -- responsive*/
 
