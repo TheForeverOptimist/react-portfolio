@@ -16,11 +16,31 @@ import CssDoodle from "../cssdoodle";
     useGSAP(() => {
       const tl = gsap.timeline();
       tl.from(".line1", { y: 100, opacity: 0, duration: 1 })
-        .from(".line2", { y: 100, opacity: 0, duration: 1, rotationY: '360'}, '<')
-        .from(".text-light", { y: 100, opacity: 0, duraiton: 0.5}, '<')
-        .from(".cta", { y: 100, opacity: 0, duration: 1, ease: "bounce", rotationX: '360'})
+        .from(
+          ".line2",
+          { y: 100, opacity: 0, duration: 1, rotationY: "360" },
+          "<"
+        )
+        .from(".text-light", { y: 100, opacity: 0, duraiton: 0.5 }, "<")
+        .from(".cta", {
+          y: 100,
+          opacity: 0,
+          duration: 1,
+          ease: "bounce",
+          rotationX: "360",
+        })
         // .from(".me", { x: 100, opacity: 0, duration: 0.3, ease: "linear"}, '<')
-        .fromTo(".me", {y:110, opacity: 0}, {y:-95, duration: 1, opacity:1, ease: "elastic"}, "<")
+        .fromTo(
+          ".me",
+          { y: 110, opacity: 0 },
+          {
+            y: -95,
+            duration: 1,
+            opacity: 1,
+            ease: "elastic",
+          },
+          "<"
+        );
     });
 
     return (
