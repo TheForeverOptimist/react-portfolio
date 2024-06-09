@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.0bff2253.css",
-    "main.js": "/static/js/main.e380dc3b.js",
+    "main.js": "/static/js/main.d36c3a60.js",
     "static/media/me_transparent_new.png": "/static/media/me_transparent_new.263e4d203411c0264fe0.png",
     "static/media/metransparent.png": "/static/media/metransparent.b7715f3c805e75d97ed5.png",
     "static/media/hate-reading-preview.png": "/static/media/hate-reading-preview.ea8f32a0caa2ca1bf434.png",
+    "static/media/stethy_ai_preview.png": "/static/media/stethy_ai_preview.b41f5e35b54a25385b4f.png",
     "static/media/Webapp_preview.png": "/static/media/Webapp_preview.3eca94e6c3a94bfdcf87.png",
     "static/media/fresh-snow.png": "/static/media/fresh-snow.1466e802f1bccf40d0a2.png",
-    "static/media/SDM1_CV.pdf": "/static/media/SDM1_CV.0a623f5b4e424652c6ae.pdf",
+    "static/media/CV_FS.pdf": "/static/media/CV_FS.2e0be863d9b43a8efba7.pdf",
     "static/media/ellieai-preview.png": "/static/media/ellieai-preview.623cc16c9222bfeba434.png",
     "index.html": "/index.html",
     "main.0bff2253.css.map": "/static/css/main.0bff2253.css.map",
-    "main.e380dc3b.js.map": "/static/js/main.e380dc3b.js.map"
+    "main.d36c3a60.js.map": "/static/js/main.d36c3a60.js.map"
   },
   "entrypoints": [
     "static/css/main.0bff2253.css",
-    "static/js/main.e380dc3b.js"
+    "static/js/main.d36c3a60.js"
   ]
 }
