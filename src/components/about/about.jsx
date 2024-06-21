@@ -17,9 +17,9 @@ const about = () => {
               <AssignmentTurnedInIcon className="about_icon" />
               <h5>Experience</h5>
               <small>Full Stack Developer</small>
-              <small>(2+ Years)</small>
+              <small>(3+ Years)</small>
               <small>Product Management</small>
-              <small>(8+ Years)</small>
+              <small>(7+ Years)</small>
             </article>
             <article className="about_card">
               <WorkspacesIcon className="about_icon" />
@@ -49,8 +49,7 @@ const about = () => {
               color: "black"
             }}
           >
-            I'm a self-driven, business savvy full stack developer. I've been a
-            Founder, as well as a Product & Regulatory Manager across various
+            I'm a self-driven, business savvy full stack developer. I transitioned from a career as a Physician to Software Engineering. I've been a Founder as well as a Product & Regulatory Manager across various
             industries, i.e. Consumer Social Platforms, Digital Health & Medical
             Devices. My experience in different modalities gives me a
             customer-centric perspective for how I design and implement my engineering.
