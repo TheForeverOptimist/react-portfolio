@@ -13,7 +13,7 @@ const data = [
     id: 1,
     image: IMG4,
     title:
-      "Stethy AI generates a pre-visit medical note after a conversation with a patient.",
+      "Stethy AI mimics a common new AI tool Health Providers use to generate a pre-visit medical note after a conversation with a patient. ",
     info: "Next.js, React, OpenAI, JavaScript, Node.js",
     github: "https://github.com/TheForeverOptimist/stethy-ai",
     demo: "https://www.stethyai.com",
