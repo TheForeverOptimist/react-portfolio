@@ -46,14 +46,19 @@ const about = () => {
               justifyContent: "center",
               marginTop: "30px",
               fontWeight: "500",
-              color: "black"
+              color: "black",
             }}
           >
-            I'm a self-driven, business savvy full stack developer. I transitioned from a career as a Physician to Software Engineering. I've been a Founder as well as a Product & Regulatory Manager across various
-            industries, i.e. Consumer Social Platforms, Digital Health & Medical
-            Devices. My experience in different modalities gives me a
-            customer-centric perspective for how I design and implement my engineering.
-            My current focus is developing Generative AI applications in TypeScript environments that utilize Large Language Models and Machine Learning to solve real world problems with bold user experiences.
+            I'm a self-driven, business savvy full stack developer. I
+            transitioned from a career as a Physician to Software Engineering.
+            I've been a Founder as well as a Product & Regulatory Manager across
+            various industries, i.e. Consumer Social Platforms, Digital Health &
+            Medical Devices. My experience in different modalities gives me a
+            customer-centric perspective for how I design and implement my
+            engineering. My current focus is developing Generative AI
+            applications in TypeScript environments that utilize Large Language
+            Models and Machine Learning to solve real world problems with bold
+            user experiences.
           </p>
         </div>
       </div>
