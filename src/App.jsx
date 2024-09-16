@@ -6,7 +6,6 @@ import Experience from './components/experience/experience'
 import Portfolio from './components/portfolio/portfolio'
 import Contact from './components/contact/contact'
 import Footer from './components/footer/footer'
-import CssDoodle from "./components/cssdoodle";
 
 
 
