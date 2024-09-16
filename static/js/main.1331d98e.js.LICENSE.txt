@@ -38,6 +38,8 @@
  * @author: Jack Doyle, jack@greensock.com
 */
 
+/*! css-doodle v0.40.2 MIT licensed */
+
 /**
  * @license React
  * react-dom.production.min.js
